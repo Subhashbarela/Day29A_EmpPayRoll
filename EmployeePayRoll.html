@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Payroll Form</title>
     <link rel="stylesheet" href="PayRoll.css">
+    
 </head>
 <body>
     <header class="header-content header ">
         <div class="logo-content">
 <img src="images/logo.png" alt="logo">
-<span class="emp-text">EMPLOYEE</span>
-<span class="emp-text emp-payroll">PAYROLL</span>
+<div>
+    <span class="emp-text">EMPLOYEE</span>
+    <span class="emp-text emp-payroll">PAYROLL</span>
+</div>
+
 </div>
     </header>
+    <div class="form-content">
+        <form action="#" class="form"
+        onsubmit="save(); return false">
+        <div class="form-head">
+            Employee Payroll Form
+        </div>
+        <div class="row-content">
+            <label for="name" class="label text">Name</label>
+            <input type="text" class="input" id="name"
+            name="name" placeholder="Your name.." required>
+        </div>
+
+        </form>
+    </div>
 </body>
 </html>
